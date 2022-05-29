@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Mname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="이름: "
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/Mage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="나이: "
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Mtel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="연락처: "
+        android:singleLine="true"/>
+    <EditText
+        android:id="@+id/Maddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="주소: "
+        android:singleLine="true"/>
+    <EditText
+        android:id="@+id/Metc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="기타: "
+        android:singleLine="true"/>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Mbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="제출" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
